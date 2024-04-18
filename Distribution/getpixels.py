@@ -10,7 +10,6 @@ def get_image_pixels(image_path):
         return width, height, pixels
 
 def save_pixels_to_individual_csv(image_folder, csv_folder):
-    # 创建CSV文件夹（如果不存在）
     if not os.path.exists(csv_folder):
         os.makedirs(csv_folder)
         
