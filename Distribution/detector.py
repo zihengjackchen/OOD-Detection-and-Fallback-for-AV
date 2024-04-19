@@ -15,6 +15,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Predict if an image is in distribution.')
     parser.add_argument('-image_path', type=str, required=True, help='Path to the input image.')
     parser.add_argument('-model_path', type=str, required=True, help='Path to the trained model.')
+    
 
     args = parser.parse_args()
 
@@ -26,14 +27,18 @@ if __name__ == "__main__":
 
     # Extract features (x, y, R, G, B, A) from pixel data
     features = [[x, y, R, G, B, A] for x, y, R, G, B, A in pixel_data]
-
+    #features=[[0, 0, 0, 0, 0, 0]]
+    print(features)
     # Standardize the features using the same scaler from the training data
     scaler = StandardScaler()
     features_scaled = scaler.fit_transform(features)
 
-    # Predict whether the new image belongs to "in distribution"
-    predictions = loaded_model.predict(features_scaled)
 
+    # Predict whether the new image belongs to "in distribution"
+    predictions = loaded_model.predict_proba(features_scaled)
+    print(predictions)
+    #probabilities = clf.predict_proba(X_new)
+    #print(predictions)
     # Check the predictions
     if 1 in predictions:
         print("The new image belongs to 'in distribution'.")
