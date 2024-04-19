@@ -14,20 +14,21 @@ for file_path in file_paths:
     data_list = []
     df = pd.read_csv(file_path)
     data_list.append(df[['R', 'G', 'B', 'A']].values)
-    data_array=np.concatenate(data_list, axis=0).flatten()
+    #data_array=np.concatenate(data_list, axis=0).flatten()
     #print(data_list)
-    #print(len(data_array))
-    #data_array = np.concatenate(data_list, axis=0)
-    #stacked_columns.append(data_array)
-    
+    #print(len(data_list))
+    data_array = np.concatenate(data_list, axis=0)
     stacked_columns.append(data_array)
-result = np.column_stack(stacked_columns)
-print(result)
-print(len(result))
-#should be 256*144*4 features
+    
+    #stacked_columns.append(data_array)
+#result = np.column_stack(stacked_columns)
+#print(result)
 #result=data_array
+result = np.vstack(stacked_columns)
+print("Stacked Data Shape:", result)
 
-mean_vector = np.mean(result, axis=1)
+
+mean_vector = np.mean(result, axis=0)
 print("Mean Vector:", mean_vector)
 #print(mean_vector)
 #print((len(mean_vector)))
