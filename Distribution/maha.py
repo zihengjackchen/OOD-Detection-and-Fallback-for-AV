@@ -17,7 +17,7 @@ def load_and_preprocess(file_path):
     return df.values.flatten()  # Ensure this matches how your training data was preprocessed
 
 # Load new data and transform
-file_paths = ['right/image0.csv']
+file_paths = ['generated_data.csv']
 data = np.array([load_and_preprocess(fp) for fp in file_paths])
 # Check for NaNs and fill them or drop them
 if np.isnan(data).any():
@@ -27,7 +27,7 @@ if np.isnan(data).any():
     # Option 2: Drop rows with any NaNs
     data = data[~np.isnan(data).any(axis=1)]
 data_pca_transformed = pca.transform(data.reshape(1, -1))  # Transform the data
-
+data_pca_transformed = np.append(data_pca_transformed, [0,0,0])
 # Compute Mahalanobis distance
 maha_distance = distance.mahalanobis(data_pca_transformed.flatten(), mean_vector, inv_covariance_matrix)
 print("Mahalanobis Distance:", maha_distance)
