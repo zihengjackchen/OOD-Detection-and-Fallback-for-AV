@@ -13,15 +13,10 @@ def load_and_preprocess(file_path):
 
 file_paths = []
 for i in range(972):
-    file_paths.append(f'right/image{i}.csv')
+    file_paths.append(f'middle/image{i}.csv')
 data = np.array([load_and_preprocess(fp) for fp in file_paths])
 
-# Check for NaNs and fill them or drop them
 if np.isnan(data).any():
-    # Option 1: Fill NaNs with the mean of each column
-    # data = np.where(np.isnan(data), np.nanmean(data, axis=0), data)
-
-    # Option 2: Drop rows with any NaNs
     data = data[~np.isnan(data).any(axis=1)]
 
 data_mean = np.mean(data, axis=0)
@@ -37,14 +32,14 @@ data_normalized = np.nan_to_num(data_normalized)
 # PCA for dimensionality reduction
 pca = PCA(n_components=0.95)  # Retain 95% of variance
 data_transformed = pca.fit_transform(data_normalized)
-# data_mean = np.mean(data_transformed, axis=0)
-# covariance_matrix = np.cov(data_transformed, rowvar=False)
+data_mean = np.mean(data_transformed, axis=0)
+covariance_matrix = np.cov(data_transformed, rowvar=False)
 
 pca.fit(data)
 
 # Save the fitted PCA model
-dump(pca, 'fitted_pca.joblib')
+dump(pca, 'fitted_pca_middle.joblib')
 
-# np.save('right_covariance_matrix.npy', covariance_matrix)
-# np.save('right_mean_vector.npy', data_mean)
-# print("Covariance matrix saved to 'covariance_matrix.npy'.")
+np.save('middle_covariance_matrix.npy', covariance_matrix)
+np.save('middle_mean_vector.npy', data_mean)
+print("Covariance matrix saved to 'covariance_matrix.npy'.")
