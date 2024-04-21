@@ -44,8 +44,9 @@ def add_fog(image, haze_list):
     return image_RGB
 
 def add_fog_random(image, reality = 100):
-    image = image.copy()    
-    image_HLS = cv2.cvtColor(image,cv2.COLOR_RGB2HLS) 
+    image = image.copy()
+    image_RGB = cv2.cvtColor(image,cv2.COLOR_BGRA2RGB) 
+    image_HLS = cv2.cvtColor(image_RGB,cv2.COLOR_RGB2HLS) 
     ## Conversion to HLS      
     hw=100    
     image_HLS[:,:,1]=image_HLS[:,:,1]*0.8
@@ -56,8 +57,8 @@ def add_fog_random(image, reality = 100):
         image_HLS = add_blur(image_HLS, haze_points[0],haze_points[1], hw) 
         ## adding all shadow polygons on empty mask, single 255 denotes only red channel    
     image_RGB = cv2.cvtColor(image_HLS,cv2.COLOR_HLS2RGB) ## Conversion to RGB    
-        
-    return image_RGB
+    image_BGRA = cv2.cvtColor(image_RGB,cv2.COLOR_RGB2BGRA) ## Conversion to RGB 
+    return image_BGRA
 
 # Create a VideoCapture object and read from input file 
 #-------------- TODO ------------- please provide your video/image path here

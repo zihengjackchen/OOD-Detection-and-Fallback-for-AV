@@ -28,10 +28,12 @@ def add_rain(image, intensity = 1500):
         cv2.line(image,(rain_drop[0],rain_drop[1]),(rain_drop[0]+slant,rain_drop[1]+drop_length),drop_color,drop_width)    
     image= cv2.blur(image,(7,7)) ## rainy view are blurry        
     brightness_coefficient = 0.7 ## rainy days are usually shady     
+    image_RGB = cv2.cvtColor(image,cv2.COLOR_BGRA2RGB) ## Conversion to HLS    
     image_HLS = cv2.cvtColor(image,cv2.COLOR_RGB2HLS) ## Conversion to HLS    
     image_HLS[:,:,1] = image_HLS[:,:,1]*brightness_coefficient ## scale pixel values down for channel 1(Lightness)    
     image_RGB = cv2.cvtColor(image_HLS,cv2.COLOR_HLS2RGB) ## Conversion to RGB    
-    return image_RGB
+    image_BGRA = cv2.cvtColor(image_RGB,cv2.COLOR_RGB2BGRA) ## Conversion to RGB    
+    return image_BGRA
 
 # Create a VideoCapture object and read from input file 
 #-------------- TODO ------------- please provide your video/image path here
