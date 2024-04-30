@@ -62,3 +62,5 @@ for epoch in range(num_epochs):
         loss.backward()
         optimizer.step()
     print(f'Epoch {epoch+1}, Loss: {loss.item()}')
+
+torch.save(model.state_dict(), 'autoencoder_mid_weights.pth')
