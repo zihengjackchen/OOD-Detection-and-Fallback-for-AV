@@ -9,15 +9,15 @@ import pickle
 
 
 def pre_normalize(vector, key):
-    scaler = load(f'/media/sheng/data4/projects/OOD/OOD-Detection-maha/Distribution/pca_saved/scalar_{key}.joblib')
+    scaler = load(f'/media/sheng/data4/projects/OOD/OOD-Detection/Distribution/pca_saved/scalar_{key}.joblib')
     vector = vector.reshape(1, -1)
     return scaler.transform(vector)
 
 
 def image_distance(image, key):
-    pca = load(f'/media/sheng/data4/projects/OOD/OOD-Detection-maha/Distribution/pca_saved/fitted_pca_{key}.joblib')  # Make sure the PCA model is loaded correctly
-    data_covariance = np.load(f'/media/sheng/data4/projects/OOD/OOD-Detection-maha/Distribution/pca_saved/data_covariance_{key}.npy')
-    data_mean = np.load(f'/media/sheng/data4/projects/OOD/OOD-Detection-maha/Distribution/pca_saved/data_mean_{key}.npy')
+    pca = load(f'/media/sheng/data4/projects/OOD/OOD-Detection/Distribution/pca_saved/fitted_pca_{key}.joblib')  # Make sure the PCA model is loaded correctly
+    data_covariance = np.load(f'/media/sheng/data4/projects/OOD/OOD-Detection/Distribution/pca_saved/data_covariance_{key}.npy')
+    data_mean = np.load(f'/media/sheng/data4/projects/OOD/OOD-Detection/Distribution/pca_saved/data_mean_{key}.npy')
     inv_data_covariance = inv(data_covariance)
     data_pca_transformed = pca.transform(image)  # Transform the data
     # data_pca_transformed = np.append(data_pca_transformed, [0,0,0])
@@ -26,9 +26,9 @@ def image_distance(image, key):
     return maha_distance
 
 
-def compute_and_save_stats(base_dir = "/media/sheng/data4/projects/OOD/OOD-Detection-maha/camera_input_source"):
-    if os.path.exists("/media/sheng/data4/projects/OOD/OOD-Detection-maha/Distribution/pca_saved/stats.pkl"):
-        with open("/media/sheng/data4/projects/OOD/OOD-Detection-maha/Distribution/pca_saved/stats.pkl", 'rb') as pkl_file:
+def compute_and_save_stats(base_dir = "/media/sheng/data4/projects/OOD/OOD-Detection/camera_input_source"):
+    if os.path.exists("/media/sheng/data4/projects/OOD/OOD-Detection/Distribution/pca_saved/stats.pkl"):
+        with open("/media/sheng/data4/projects/OOD/OOD-Detection/Distribution/pca_saved/stats.pkl", 'rb') as pkl_file:
             means, vars = pickle.load(pkl_file)
     else:
         all_distances = {"rgb": [], "rgb_left": [], "rgb_right": []}
@@ -51,7 +51,7 @@ def compute_and_save_stats(base_dir = "/media/sheng/data4/projects/OOD/OOD-Detec
                                     # Calculate image distance
                                     
                                     raw_img = np.array(input_data[key][1]).flatten()
-                                    raw_img = pre_compute(raw_img, key)
+                                    raw_img = pre_normalize(raw_img, key)
                                     
                                     distance = image_distance(raw_img, key)
                                     all_distances[key].append(distance)
@@ -62,7 +62,7 @@ def compute_and_save_stats(base_dir = "/media/sheng/data4/projects/OOD/OOD-Detec
         means = {key: np.mean(all_distances[key]) for key in all_distances}
         vars = {key: np.var(all_distances[key]) for key in all_distances}
     
-        with open("/media/sheng/data4/projects/OOD/OOD-Detection-maha/Distribution/pca_saved/stats.pkl", 'wb') as pkl_file:
+        with open("/media/sheng/data4/projects/OOD/OOD-Detection/Distribution/pca_saved/stats.pkl", 'wb') as pkl_file:
             pickle.dump([means, vars], pkl_file)
     
     return means, vars
@@ -89,3 +89,5 @@ def is_in_dist(raw_rgb_dict):
     
     # All 0 (OOD): False
     return any(OODs)
+
+
