@@ -1,12 +1,13 @@
 import os
 import json
+import re
 # This file tells us the number of values contained in the json at max
 PREFIX = 'paramsweep_results_lead_slowdown_weather_'
 BASELINE = 'baseline'
 MAHA = 'maha'
 TEST_FILE_COMMON_NAME = "/results_summary.json"
 TEST_FILE_ROOT = "../testing/"
-
+PERCENT_SEARCH = re.compile(r'\(.*%')
 
 def get_csv_file_string(test_results_dir):
     path = TEST_FILE_ROOT + PREFIX + test_results_dir
@@ -17,6 +18,7 @@ def get_csv_file_string(test_results_dir):
                 "collisions_vehicle",\
                 "collisions_layout",\
                 "outside_route_lanes",\
+                "outside_route_lanes_average",\
                 "meta_duration_game",\
                 "meta_duration_system",\
                 "meta_route_length",\
@@ -40,6 +42,9 @@ def get_csv_file_string(test_results_dir):
             collisions_layout = collisions_layout.replace(",", " ")
             outside_route_lanes = infractions['outside_route_lanes'][0] if len(infractions['outside_route_lanes']) > 0 else ""
             outside_route_lanes = outside_route_lanes.replace(",", " ")
+            outside_route_lanes_average = '0.0'
+            if (outside_route_lanes.strip()):
+                outside_route_lanes_average = PERCENT_SEARCH.search(outside_route_lanes).group()[1:-1]
             scenario_num = file_name_split[5][2:]
             scenario_type = file_name_split[6]
             scenario_type_intesnsity = file_name_split[7][2]
@@ -56,6 +61,7 @@ def get_csv_file_string(test_results_dir):
                 collisions_vehicle,\
                 collisions_layout,\
                 outside_route_lanes,\
+                outside_route_lanes_average,\
                 meta_duration_game,\
                 meta_duration_system,\
                 meta_route_length,\
@@ -67,7 +73,6 @@ def get_csv_file_string(test_results_dir):
             csv_rows.append(",".join(cur))
     return "\n".join(csv_rows)
 
-# if (__name__ == "main" ):
-#     print("Saving ... results.csv")
-with open(BASELINE + 'results.csv', 'w') as result_file:
-    result_file.write(get_csv_file_string(MAHA))
+result_type = BASELINE
+with open(result_type + 'results.csv', 'w') as result_file:
+    result_file.write(get_csv_file_string(result_type))
