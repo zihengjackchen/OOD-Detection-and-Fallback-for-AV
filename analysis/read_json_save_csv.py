@@ -4,7 +4,7 @@ import re
 # This file tells us the number of values contained in the json at max
 PREFIX = 'paramsweep_results_lead_slowdown_weather_'
 BASELINE = 'baseline'
-MAHA = 'maha'
+MAHA = 'maha_mitigated'
 TEST_FILE_COMMON_NAME = "/results_summary.json"
 TEST_FILE_ROOT = "../testing/"
 PERCENT_SEARCH = re.compile(r'\(.*%')
