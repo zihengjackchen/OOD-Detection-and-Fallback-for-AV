@@ -48,7 +48,7 @@ def debug_display(tick_data, target_cam, out, steer, throttle, brake, desired_sp
 
     _combined = Image.fromarray(np.hstack([tick_data['rgb_left'], _rgb, tick_data['rgb_right']]))
 
-    # Save camera input for debugging
+    # # Save camera input for debugging
     # print_time = int(timestamp * 100) // 25 * 25
     # main_folder = "/media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_test"
     # # Ensure the base path exists
@@ -90,56 +90,58 @@ class ImageAgent(BaseAgent):
         result = super().tick(input_data)
         result['image'] = np.concatenate(tuple(result[x] for x in ['rgb', 'rgb_left', 'rgb_right']), -1)
 
+        result["ood"] = False
         raw_rgb_dict = {key: input_data[key][1] for key in ['rgb', 'rgb_left', 'rgb_right']}
 
-        with open(
-                "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/team_code/orig_combs.pkl",
-                "rb") as f:
-            weather, param = pkl.load(f)
+        if os.path.exists("/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/team_code/orig_combs.pkl"):
+            with open(
+                    "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/team_code/orig_combs.pkl",
+                    "rb") as f:
+                weather, param = pkl.load(f)
 
-        if weather == "shade":
-            image_for_ood = {key: shadow.add_shadow(image=raw_rgb_dict[key], degree_of_shade=param) for key in raw_rgb_dict}
-            weather_img_concat = []
-            for x in ['rgb', 'rgb_left', 'rgb_right']:
-                param *= 0.15
-                weather_img = shadow.add_shadow(image=input_data[x][1], degree_of_shade=param)
-                weather_img_cvt = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
-                weather_img_concat.append(weather_img_cvt)
-                result[x] = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
-            result['image'] = np.concatenate(tuple(weather_img_concat), -1)
-            print(f"Injected shade with param {param}")
-
-
-        elif weather == "rain":
-            param *= 150
-            image_for_ood = {key: rain.add_rain(image=raw_rgb_dict[key], intensity=param) for key in raw_rgb_dict}
-            weather_img_concat = []
-            for x in ['rgb', 'rgb_left', 'rgb_right']:
-                weather_img = rain.add_rain(image=input_data[x][1], intensity=param)
-                weather_img_cvt = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
-                weather_img_concat.append(weather_img_cvt)
-                result[x] = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
-
-            result['image'] = np.concatenate(tuple(weather_img_concat), -1)
-            print(f"Injected rain with param {param}")
+            if weather == "shade":
+                image_for_ood = {key: shadow.add_shadow(image=raw_rgb_dict[key], degree_of_shade=param) for key in raw_rgb_dict}
+                weather_img_concat = []
+                for x in ['rgb', 'rgb_left', 'rgb_right']:
+                    param *= 0.15
+                    weather_img = shadow.add_shadow(image=input_data[x][1], degree_of_shade=param)
+                    weather_img_cvt = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
+                    weather_img_concat.append(weather_img_cvt)
+                    result[x] = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
+                result['image'] = np.concatenate(tuple(weather_img_concat), -1)
+                print(f"Injected shade with param {param}")
 
 
-        elif weather == "haze":
-            param *= 25
-            image_for_ood = {key: haze.add_fog_random(image=raw_rgb_dict[key], reality=param) for key in raw_rgb_dict}
-            weather_img_concat = []
-            for x in ['rgb', 'rgb_left', 'rgb_right']:
-                weather_img = haze.add_fog_random(image=input_data[x][1], reality=param)
-                weather_img_cvt = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
-                weather_img_concat.append(weather_img_cvt)
-                result[x] = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
+            elif weather == "rain":
+                param *= 150
+                image_for_ood = {key: rain.add_rain(image=raw_rgb_dict[key], intensity=param) for key in raw_rgb_dict}
+                weather_img_concat = []
+                for x in ['rgb', 'rgb_left', 'rgb_right']:
+                    weather_img = rain.add_rain(image=input_data[x][1], intensity=param)
+                    weather_img_cvt = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
+                    weather_img_concat.append(weather_img_cvt)
+                    result[x] = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
 
-            result['image'] = np.concatenate(tuple(weather_img_concat), -1)
-            print(f"Injected haze with param {param}")
+                result['image'] = np.concatenate(tuple(weather_img_concat), -1)
+                print(f"Injected rain with param {param}")
 
 
-        print(f"Detected OOD: {maha.is_in_dist(image_for_ood)}")
-        result["ood"] = maha.is_in_dist(image_for_ood)
+            elif weather == "haze":
+                param *= 25
+                image_for_ood = {key: haze.add_fog_random(image=raw_rgb_dict[key], reality=param) for key in raw_rgb_dict}
+                weather_img_concat = []
+                for x in ['rgb', 'rgb_left', 'rgb_right']:
+                    weather_img = haze.add_fog_random(image=input_data[x][1], reality=param)
+                    weather_img_cvt = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
+                    weather_img_concat.append(weather_img_cvt)
+                    result[x] = cv2.cvtColor(weather_img[:, :, :3], cv2.COLOR_BGR2RGB)
+
+                result['image'] = np.concatenate(tuple(weather_img_concat), -1)
+                print(f"Injected haze with param {param}")
+
+
+            print(f"Detected OOD: {not maha.is_in_dist(image_for_ood)}")
+            result["ood"] = not maha.is_in_dist(image_for_ood)
 
         theta = result['compass']
         theta = 0.0 if np.isnan(theta) else theta
@@ -193,6 +195,7 @@ class ImageAgent(BaseAgent):
         control.brake = float(brake)
 
         if tick_data["ood"]:
+            print(f"Detected OOD, fall back by reducing throttle from {control.throttle} to {control.throttle * 0.7}")
             control.throttle *= 0.7
             control.brake = float(desired_speed < 0.4 * 1.3 or (speed / desired_speed) > 1.05)
 
@@ -233,6 +236,7 @@ class ImageAgent(BaseAgent):
         desired_speed = np.linalg.norm(points_world[0] - points_world[1]) * 3.0
         # desired_speed *= (1 - abs(angle)) ** 2
 
+
         speed = tick_data['speed']
 
         brake = desired_speed < 0.4 or (speed / desired_speed) > 1.05
@@ -243,10 +247,17 @@ class ImageAgent(BaseAgent):
         throttle = np.clip(throttle, 0.0, 0.9)
         throttle = throttle if not brake else 0.0
 
+
         control = carla.VehicleControl()
         control.steer = steer
         control.throttle = throttle
         control.brake = float(brake)
+
+        if tick_data["ood"]:
+            print(f"Detected OOD, fall back by reducing throttle from {control.throttle} to {control.throttle * 0.7}")
+            control.throttle *= 0.7
+            control.brake = float(desired_speed < 0.4 * 1.3 or (speed / desired_speed) > 1.05)
+
 
         if DEBUG:
             debug_display(
