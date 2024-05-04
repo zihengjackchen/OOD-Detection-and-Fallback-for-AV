@@ -1,15 +1,15 @@
 
-creating control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0501_034219-fi_lead_slowdown_logs-single_ctl.csv
+creating control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_baseline_fixed/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0503_144936-fi_lead_slowdown_logs-single_ctl.csv
 
-creating ego trajectory dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0501_034219-fi_lead_slowdown_logs-single_traj.csv
+creating ego trajectory dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_baseline_fixed/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0503_144936-fi_lead_slowdown_logs-single_traj.csv
 
-creating cvip dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0501_034219-fi_lead_slowdown_logs-single_cvip.csv
+creating cvip dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_baseline_fixed/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0503_144936-fi_lead_slowdown_logs-single_cvip.csv
 
-creating network points dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0501_034219-fi_lead_slowdown_logs-single_points.csv
+creating network points dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_baseline_fixed/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0503_144936-fi_lead_slowdown_logs-single_points.csv
 
-creating pid delta dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0501_034219-fi_lead_slowdown_logs-single_piddelta.csv
+creating pid delta dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_baseline_fixed/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0503_144936-fi_lead_slowdown_logs-single_piddelta.csv
 
-creating unclipped control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0501_034219-fi_lead_slowdown_logs-single_unclip_ctl.csv
+creating unclipped control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_baseline_fixed/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_logs/routes_fi_route_highway-0503_144936-fi_lead_slowdown_logs-single_unclip_ctl.csv
 
 done creating dump files.
 
@@ -17,7 +17,7 @@ done creating dump files.
 > Setting up the agent[0m
 <All keys matched successfully>
 Loading the world
-Save to //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_data/route_highway.xml_fi_lead_slowdown.json.pkl
+Save to //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_baseline_fixed/SINGLE_AGENT_fi_lead_slowdown_00105_rain_009/fi_lead_slowdown_data/route_highway.xml_fi_lead_slowdown.json.pkl
 Exclude list: [17, 23]
 Location(x=192.362411, y=-86.262680, z=0.700000) Rotation(pitch=0.000000, yaw=89.330902, roll=0.000000)
 Base scenario time out after: 36.333333333333336
@@ -29,1473 +29,1014 @@ Running the route
 Configuring pyTorchFI
 Fault Injection Disabled.
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.000482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002891, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000239, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.001741, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.013958, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002935, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.016400, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001637, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.006259, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.005087, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.006706, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.007500, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.016996, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.002423, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001630, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.013545, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.010100, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.095579, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.011268, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000826, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000204, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.024664, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.013077, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.019854, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.006151, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.288985, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.153613, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031606, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.030339, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.036608, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.014994, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.033016, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.097939, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.019536, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.007767, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.022514, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.007960, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.006520, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.019338, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.006081, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.012788, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.016814, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.009958, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.004193, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002211, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.006118, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003842, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.022971, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.021168, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.227567, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.151666, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001856, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.055367, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.007291, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.232182, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.022959, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003071, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.049053, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.164539, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.048049, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.012243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.009125, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.020398, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.010904, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.016858, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.133783, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.182502, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.020140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.071697, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.062244, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.007358, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.019032, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.062880, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.111080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.025981, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.255783, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.379862, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.014371, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.018251, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.206329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.294884, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.013509, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000314, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.019413, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.147150, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.014606, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.023455, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.033569, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.031914, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.004117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.126151, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.055585, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.073236, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.049346, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.037554, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.008088, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.104963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.004582, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.024644, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.056334, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.023280, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.046370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.072962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.179530, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.098046, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.108498, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.064325, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.178787, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.317334, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.006724, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.017926, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.011327, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.032907, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.059634, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.283857, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.086340, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.009169, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.062798, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.062315, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.284689, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.182924, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.041732, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.075883, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.286858, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.123610, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.139133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.166415, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.004086, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001529, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.162835, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.037802, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.124181, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.094586, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.054058, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.044516, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.039435, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.188024, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.038184, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.033863, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.198597, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.201384, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.063601, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.162221, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.027003, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.049727, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.205942, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.371012, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.086591, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.005133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.072069, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.009142, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.008656, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.048222, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.124698, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.041919, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.082128, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.050978, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.141786, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.062570, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003884, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.096662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.193684, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.264510, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.158641, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.033483, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.009598, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.017027, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.164435, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.089332, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.087329, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.171953, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.185455, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.192619, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002298, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016942, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.046274, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.051615, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.019373, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.020872, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.004915, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.143888, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.029865, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.008596, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.028450, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.242021, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.203491, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.152755, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.000463, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003888, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.027975, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.113648, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.058849, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.118217, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.115918, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.031579, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.028456, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.084140, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.180626, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.098179, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.014557, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.028713, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.179000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.068423, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.256343, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.195509, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.040360, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.073653, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.162831, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.273059, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.015705, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.045890, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.009913, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.016612, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Resetting ego-vehicle!
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.200452, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.093964, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.015784, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.047437, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.236130, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.267378, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.040219, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.020349, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.015255, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.085773, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.159535, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.231472, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.008831, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.006319, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.023540, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.043712, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.046167, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.065422, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.025583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.044496, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.204506, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.171052, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.007006, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.030492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.060786, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.018777, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.010853, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.092003, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.004782, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.083120, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.135493, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.191826, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.158534, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.895096, steer=0.079435, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.118224, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.126782, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.100660, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.022806, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.160448, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.777674, steer=0.003041, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.861469, steer=-0.019231, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.756399, steer=0.094190, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.158063, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.755121, steer=-0.038511, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.028139, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.186871, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.881756, steer=0.034454, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.888638, steer=0.006683, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.682480, steer=0.066555, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.028009, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.161443, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.229493, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.299326, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.008349, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.098850, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.825220, steer=0.003934, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.020655, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.007219, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.017338, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.385772, steer=0.035240, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.653828, steer=0.058349, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.242004, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.256323, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.460482, steer=0.002964, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.041063, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.064191, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.089961, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.040952, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.074024, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.465815, steer=0.027752, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.685856, steer=0.027852, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.625867, steer=0.009613, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.517027, steer=0.054626, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.231730, steer=0.119523, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.149424, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.249816, steer=0.207106, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.306875, steer=0.277782, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.446737, steer=0.073325, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.545666, steer=0.223387, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.299418, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.347735, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.024035, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.251843, steer=0.096786, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.333630, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.351022, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.124833, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.534068, steer=0.084585, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.015216, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.807170, steer=0.062106, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.029419, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.774764, steer=-0.036067, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.271567, steer=-0.062502, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.084096, steer=0.038970, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.422092, steer=0.056315, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.301699, steer=0.142750, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.059270, steer=0.146305, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.475670, steer=0.181550, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.302611, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.130536, steer=0.254449, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.152947, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.237401, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.896057, steer=-0.025739, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.276986, steer=0.082708, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.119403, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.101165, steer=0.119869, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.319612, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.079395, steer=0.278328, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.059543, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.515670, steer=-0.083213, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.173764, steer=0.146706, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.210882, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.637412, steer=-0.081560, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.252775, steer=-0.044744, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.861874, steer=-0.009949, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.078671, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.052956, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.624307, steer=0.124101, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.156900, steer=0.273802, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.235140, steer=0.386124, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.589025, steer=0.132234, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.489585, steer=0.027860, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.036841, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.617447, steer=0.145276, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.861499, steer=-0.035551, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.196790, steer=0.091676, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.105670, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.535052, steer=-0.016105, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.551078, steer=0.167455, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.893066, steer=0.085918, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.086023, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.814621, steer=0.098480, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.037935, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.006530, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.873853, steer=0.100533, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.076844, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.671743, steer=-0.027834, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.601013, steer=0.156952, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.165455, steer=0.251547, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.400033, steer=0.293114, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.368143, steer=0.160776, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.095738, steer=0.092995, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.017801, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.523025, steer=-0.039695, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.730144, steer=-0.076256, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.249330, steer=0.294816, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.566074, steer=0.038982, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.465524, steer=0.164017, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.722611, steer=0.047287, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.801082, steer=0.071024, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.599097, steer=0.023451, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.706141, steer=0.135186, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.095671, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.353147, steer=-0.019546, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.484259, steer=0.215039, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.408986, steer=0.300358, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.063232, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005726, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.034490, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.093369, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.845804, steer=0.150756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.683107, steer=-0.060437, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.654852, steer=0.056086, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.643519, steer=0.065410, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.318928, steer=0.148767, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.194603, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.883921, steer=-0.108275, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.619019, steer=0.075010, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.608538, steer=0.188667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.546897, steer=0.149086, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.697368, steer=0.218963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.672297, steer=-0.037590, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.848312, steer=0.070486, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.389013, steer=0.072697, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.704357, steer=-0.003152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.494971, steer=0.045962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.052850, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.843950, steer=0.397392, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.833236, steer=0.003897, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.898846, steer=0.013344, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.407185, steer=0.199840, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.366141, steer=0.116026, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.739993, steer=-0.059508, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.388577, steer=0.181068, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.242518, steer=0.112893, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.794620, steer=0.013259, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.497048, steer=-0.052349, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.045388, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.013823, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.523169, steer=0.109426, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.693207, steer=0.026035, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.801486, steer=0.135330, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.877312, steer=-0.100159, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.021740, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.632444, steer=-0.010974, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.363687, steer=0.183635, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.278057, steer=0.126622, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.703867, steer=0.092596, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.050273, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.129755, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.039099, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.219068, steer=0.342353, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.820172, steer=0.324263, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.663470, steer=-0.014072, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.473254, steer=0.124768, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.201754, steer=0.238053, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.661153, steer=0.185161, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.507077, steer=0.218087, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.125128, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.030007, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.196087, steer=0.055257, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.623949, steer=-0.045225, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.227617, steer=0.181512, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.567457, steer=0.020738, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.035491, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.017726, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.098571, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.793418, steer=0.015478, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.741907, steer=0.032168, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.765808, steer=0.057749, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.177589, steer=0.008346, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.416685, steer=0.036573, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.366602, steer=0.162124, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.197065, steer=0.242275, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.207540, steer=-0.049369, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031495, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.023374, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.888895, steer=0.069004, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.330269, steer=-0.011961, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.275755, steer=-0.065901, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.421601, steer=0.179150, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.589490, steer=0.054336, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.033964, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.033523, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.478569, steer=0.092262, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.888567, steer=-0.010253, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.683512, steer=0.166702, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.597551, steer=0.142075, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.260417, steer=0.068024, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.636986, steer=0.342493, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.194899, steer=0.219077, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.017281, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.422452, steer=-0.042654, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.035294, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.543564, steer=0.080749, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.013959, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.204017, steer=-0.010819, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.248713, steer=0.215227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.001903, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.256778, steer=0.069556, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.229729, steer=0.241084, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.235719, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.029960, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001077, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001503, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.014261, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.537191, steer=0.135517, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.505876, steer=0.126818, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.436507, steer=-0.020274, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.677992, steer=-0.056218, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.016323, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.742230, steer=0.163170, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.099276, steer=0.234362, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.287706, steer=0.135051, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.843569, steer=-0.015370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.226297, steer=-0.057274, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.016343, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.714439, steer=-0.180073, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.409930, steer=0.116545, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.304650, steer=0.121550, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.358169, steer=0.053028, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.238059, steer=0.043155, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.745945, steer=0.003785, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.041328, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.483853, steer=-0.001185, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.132122, steer=0.022184, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.305283, steer=0.042540, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.213096, steer=-0.056766, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.022133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.584791, steer=-0.154723, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.317647, steer=0.167328, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.184676, steer=0.062381, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.264635, steer=0.157605, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.019861, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.281138, steer=0.042978, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.105933, steer=-0.022644, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.018765, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.547024, steer=-0.046963, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.497478, steer=0.019541, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.658635, steer=-0.183600, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.051088, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.492074, steer=-0.018117, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.227699, steer=-0.028482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.013688, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.602621, steer=-0.009265, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.481949, steer=-0.071182, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.327632, steer=0.051521, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.364367, steer=-0.086615, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.293109, steer=0.122296, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.167292, steer=0.264495, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.183681, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.074483, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.219254, steer=-0.060900, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.350147, steer=-0.012393, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.793211, steer=0.038132, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.257327, steer=-0.114547, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.108152, steer=0.071205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.162402, steer=-0.001122, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.565206, steer=0.038844, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.785798, steer=-0.012160, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.031787, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.697252, steer=-0.011487, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.270444, steer=0.072937, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.302973, steer=-0.003458, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.334528, steer=0.233784, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.168433, steer=0.025412, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.558623, steer=0.001005, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.153690, steer=0.054637, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.691763, steer=0.123557, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.033470, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.113146, steer=0.122107, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.151556, steer=-0.038768, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.170942, steer=0.050698, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.061815, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.004707, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.516452, steer=-0.057312, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.014928, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.489897, steer=-0.040527, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.727011, steer=0.005776, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.007427, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.445762, steer=0.174978, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.786569, steer=-0.027876, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.818823, steer=-0.024555, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.511478, steer=-0.038714, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.274268, steer=0.226753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.399737, steer=0.032723, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.527205, steer=0.074872, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.047847, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.018981, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.026001, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.448866, steer=0.094873, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.663050, steer=-0.031695, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.026334, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.875266, steer=-0.061152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.626223, steer=-0.005488, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.550852, steer=-0.014017, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.002817, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.684833, steer=-0.024165, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.438283, steer=0.011601, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.328401, steer=0.009671, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.724794, steer=0.042728, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.025461, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.449687, steer=-0.023981, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.352342, steer=-0.023220, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.353211, steer=0.116381, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.071546, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.055719, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016833, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.236290, steer=0.161065, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.040812, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.000613, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.021712, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.400462, steer=0.131459, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.591577, steer=-0.043655, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.593538, steer=0.036860, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.033751, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.299880, steer=0.110416, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.620897, steer=-0.065250, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.420040, steer=0.143411, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.450199, steer=-0.077994, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.027564, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.043667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.656101, steer=0.105623, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.480379, steer=-0.071547, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.045852, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.036575, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.033197, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.041397, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.035880, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.775995, steer=-0.034704, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.015706, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.037059, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.728139, steer=-0.017881, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.585208, steer=-0.065981, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.026120, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.050061, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.009777, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.021535, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.013882, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.238421, steer=-0.042397, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.700582, steer=0.054667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.303964, steer=-0.063819, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.101782, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.676674, steer=-0.050859, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.010536, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.731812, steer=-0.030949, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.766014, steer=0.163886, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.024778, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.649345, steer=0.052929, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.710270, steer=-0.036831, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.060541, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.819300, steer=-0.051228, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.509937, steer=0.118663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.744292, steer=-0.049287, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.027951, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.039163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.401165, steer=-0.009350, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.033894, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.011703, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.036356, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.029395, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.733349, steer=-0.035212, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.003542, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.050238, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.826405, steer=0.069945, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.097780, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.599549, steer=0.110338, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016735, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.649558, steer=0.010759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.022497, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.789486, steer=-0.027784, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.043890, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.017735, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.042956, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.639534, steer=0.158511, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.601844, steer=-0.053370, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=0.007417, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.777857, steer=-0.044854, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.374922, steer=0.027252, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.406184, steer=-0.031228, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.032934, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.022908, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.743674, steer=0.074492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.032104, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.568706, steer=0.251801, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.275936, steer=-0.020993, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.774113, steer=-0.019286, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.402582, steer=-0.098002, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.487230, steer=0.072892, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.012508, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.886928, steer=-0.058242, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.400686, steer=0.019549, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.523182, steer=-0.006622, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.028394, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.078694, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.842753, steer=-0.029436, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.726409, steer=-0.083375, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.102558, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.694062, steer=-0.034587, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.033487, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.839338, steer=0.069179, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.657622, steer=-0.090397, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.477531, steer=0.000542, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.004611, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.333061, steer=0.019205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.797930, steer=-0.085749, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.248657, steer=-0.015900, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.016651, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.314246, steer=-0.047047, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.039234, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.684193, steer=-0.007293, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.560900, steer=-0.139693, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.781190, steer=-0.096024, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.639076, steer=-0.097133, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.540185, steer=-0.108277, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.081460, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.754692, steer=-0.138926, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.669802, steer=-0.027856, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.025498, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.089492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.644891, steer=-0.141782, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.608129, steer=-0.042510, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.450897, steer=-0.018672, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.682434, steer=-0.060921, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.481630, steer=0.026502, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.062821, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.738236, steer=-0.057607, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.028813, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.449696, steer=-0.065953, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.578805, steer=-0.095171, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.047584, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.803256, steer=-0.024634, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.447328, steer=-0.058464, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.830951, steer=-0.045874, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.085470, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.882451, steer=-0.055147, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.056113, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.571562, steer=-0.041227, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.274527, steer=-0.029658, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.062194, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.556097, steer=-0.048413, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.719696, steer=-0.079687, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.064049, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.085643, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.074781, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.062723, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.527550, steer=-0.106674, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.123047, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.484679, steer=-0.104290, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.111358, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.666814, steer=-0.127321, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.219554, steer=-0.183044, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.272911, steer=-0.187652, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=0.006171, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.255030, steer=-0.220978, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.153957, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.181622, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.067636, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.149804, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.212400, steer=-0.151089, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.534400, steer=-0.144783, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.206835, steer=-0.211198, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.511752, steer=-0.087311, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.422831, steer=-0.159317, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.619437, steer=-0.085727, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.709469, steer=-0.235010, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.530338, steer=-0.244966, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.143430, steer=-0.254024, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.165834, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.529419, steer=-0.191864, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.318339, steer=-0.242345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.357309, steer=-0.246429, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.305608, steer=-0.148216, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.179859, steer=-0.273894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.147938, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.222486, steer=-0.313880, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.228858, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.178637, steer=-0.253632, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.168410, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.405765, steer=-0.278016, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.344441, steer=-0.300616, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.081385, steer=-0.281006, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.230695, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.249518, steer=-0.287994, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.223933, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.174024, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.234836, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.436373, steer=-0.269351, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.420286, steer=-0.248760, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.152975, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.685212, steer=-0.286103, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.132196, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.593616, steer=-0.259557, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.882164, steer=-0.211391, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.537112, steer=-0.264120, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.775036, steer=-0.151819, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.171084, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.105517, steer=-0.174592, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.098744, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.091135, steer=-0.202962, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.142068, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.735520, steer=-0.254508, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.152688, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.530280, steer=-0.210634, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.170003, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.154379, steer=-0.171287, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.207618, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.255081, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.107562, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.227616, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.639624, steer=-0.262919, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.030248, steer=-0.158248, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.119598, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.386697, steer=-0.166674, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.182166, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.148965, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.108902, steer=-0.158828, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.000000, steer=-0.106212, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.616511, steer=-0.129336, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.163519, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.870655, steer=-0.195110, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.190048, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.203982, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.783612, steer=-0.142413, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.172226, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.156584, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.155821, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.171740, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.114485, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.163400, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.172921, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.123850, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.124611, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.088546, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.115123, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.174016, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.163910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.169870, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.173729, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.177281, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.185185, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
-Injected rain with param 1350
-Detected OOD: False
-agent 0 action: VehicleControl(throttle=0.900000, steer=-0.209592, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Detected OOD: True
+agent 0 action: VehicleControl(throttle=0.631689, steer=-0.054616, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
 Stopping the route
 
 ========= Results of RouteScenario_0 (repetition 0) ------ [91mFAILURE[0m =========
 
 ╒═════════════════════════════════╤═════════════════════╕
-│ Start Time                      │ 2024-05-01 03:42:26 │
+│ Start Time                      │ 2024-05-03 14:49:42 │
 ├─────────────────────────────────┼─────────────────────┤
-│ End Time                        │ 2024-05-01 03:45:18 │
+│ End Time                        │ 2024-05-03 14:51:43 │
 ├─────────────────────────────────┼─────────────────────┤
-│ Duration (System Time)          │ 172.01s             │
+│ Duration (System Time)          │ 120.38s             │
 ├─────────────────────────────────┼─────────────────────┤
-│ Duration (Game Time)            │ 12.03s              │
+│ Duration (Game Time)            │ 8.2s                │
 ├─────────────────────────────────┼─────────────────────┤
-│ Ratio (System Time / Game Time) │ 0.07                │
+│ Ratio (System Time / Game Time) │ 0.068               │
 ╘═════════════════════════════════╧═════════════════════╛
 
 ╒═══════════════════════╤═════════╤═════════╕
 │ Criterion             │ Result  │ Value   │
 ├───────────────────────┼─────────┼─────────┤
-│ RouteCompletionTest   │ FAILURE │ 34.43 % │
+│ RouteCompletionTest   │ FAILURE │ 19.93 % │
 ├───────────────────────┼─────────┼─────────┤
-│ OutsideRouteLanesTest │ FAILURE │ 42.11 % │
+│ OutsideRouteLanesTest │ FAILURE │ 30.63 % │
 ├───────────────────────┼─────────┼─────────┤
-│ CollisionTest         │ SUCCESS │ 0 times │
+│ CollisionTest         │ FAILURE │ 1 times │
 ├───────────────────────┼─────────┼─────────┤
 │ RunningRedLightTest   │ SUCCESS │ 0 times │
 ├───────────────────────┼─────────┼─────────┤
