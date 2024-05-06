@@ -1,59 +1,7 @@
-Traceback (most recent call last):
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py", line 600, in main
-    control_log_path=control_log_path)
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py", line 102, in __init__
-    self.module_agent = importlib.import_module(module_name)
-  File "/usr/lib/python3.7/importlib/__init__.py", line 127, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
-  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/team_code/image_agent.py", line 10, in <module>
-    from carla_project.src.image_model import ImageModel
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/carla_project/src/image_model.py", line 8, in <module>
-    import pytorch_lightning as pl
-  File "/usr/local/lib/python3.7/dist-packages/pytorch_lightning/__init__.py", line 28, in <module>
-    from .trainer import Trainer
-  File "/usr/local/lib/python3.7/dist-packages/pytorch_lightning/trainer/__init__.py", line 878, in <module>
-    from .trainer import Trainer
-  File "/usr/local/lib/python3.7/dist-packages/pytorch_lightning/trainer/trainer.py", line 17, in <module>
-    from pytorch_lightning.loggers import LightningLoggerBase
-  File "/usr/local/lib/python3.7/dist-packages/pytorch_lightning/loggers/__init__.py", line 118, in <module>
-    from .wandb import WandbLogger
-  File "/usr/local/lib/python3.7/dist-packages/pytorch_lightning/loggers/wandb.py", line 15, in <module>
-    import wandb
-  File "/home/sheng/.local/lib/python3.7/site-packages/wandb/__init__.py", line 27, in <module>
-    from wandb import sdk as wandb_sdk
-  File "/home/sheng/.local/lib/python3.7/site-packages/wandb/sdk/__init__.py", line 7, in <module>
-    from .wandb_artifacts import Artifact  # noqa: F401
-  File "/home/sheng/.local/lib/python3.7/site-packages/wandb/sdk/wandb_artifacts.py", line 30, in <module>
-    from wandb.apis import InternalApi, PublicApi
-  File "/home/sheng/.local/lib/python3.7/site-packages/wandb/apis/__init__.py", line 33, in <module>
-    from .public import Api as PublicApi  # noqa
-  File "/home/sheng/.local/lib/python3.7/site-packages/wandb/apis/public.py", line 33, in <module>
-    from wandb.data_types import WBValue
-  File "/home/sheng/.local/lib/python3.7/site-packages/wandb/data_types.py", line 34, in <module>
-    from wandb.sdk.data_types import (
-  File "/home/sheng/.local/lib/python3.7/site-packages/wandb/sdk/data_types.py", line 71, in <module>
-    _MEDIA_TMP = tempfile.TemporaryDirectory("wandb-media")
-  File "/usr/lib/python3.7/tempfile.py", line 929, in __init__
-    self.name = mkdtemp(suffix, prefix, dir)
-  File "/usr/lib/python3.7/tempfile.py", line 505, in mkdtemp
-    _os.mkdir(file, 0o700)
-OSError: [Errno 30] Read-only file system: '/tmp/tmpntky41uxwandb-media'
-Exception ignored in: <function LeaderboardEvaluator.__del__ at 0x7f5e2f03f680>
-Traceback (most recent call last):
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py", line 129, in __del__
-    self._cleanup()
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py", line 140, in _cleanup
-    if self.manager and self.manager.get_running_status() \
-AttributeError: 'LeaderboardEvaluator' object has no attribute 'manager'
-Traceback (most recent call last):
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py", line 613, in <module>
-    main()
-  File "/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/leaderboard_evaluator.py", line 609, in main
-    del leaderboard_evaluator
-UnboundLocalError: local variable 'leaderboard_evaluator' referenced before assignment
+/usr/local/lib/python3.7/dist-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/media/sheng/data4/projects/DiverseEnv/auto/agents/2020_CARLA_challenge/leaderboard/leaderboard/carla_sim_datautils.py:210: RuntimeWarning: invalid value encountered in arccos
+  angle = np.arccos(dot_product)
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  trying to operate on a destroyed actor; an actor's function was called, but the actor is already destroyed.
+Aborted (core dumped)
