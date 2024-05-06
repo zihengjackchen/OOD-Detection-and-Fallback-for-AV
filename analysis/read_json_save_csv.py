@@ -30,6 +30,8 @@ def get_csv_file_string(test_results_dir):
     csv_rows.append(",".join(labels))
     scenarios = set()
     for file_name in dir_list:
+        if ('SINGLE_AGENT_fi_lead_slowdown' not in file_name):
+            continue
         file_name_split = file_name.split('_')
         scenarios.add("_".join(file_name_split[:5]))
         with open(path + "/" + file_name + TEST_FILE_COMMON_NAME, 'r') as json_raw:
@@ -73,6 +75,6 @@ def get_csv_file_string(test_results_dir):
             csv_rows.append(",".join(cur))
     return "\n".join(csv_rows)
 
-result_type = BASELINE
+result_type = MAHA
 with open(result_type + 'results.csv', 'w') as result_file:
     result_file.write(get_csv_file_string(result_type))

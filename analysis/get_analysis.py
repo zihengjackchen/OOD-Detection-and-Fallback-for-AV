@@ -52,7 +52,7 @@ def get_aggr_result_csv_string(result_file_type):
     
     return ("\n".join(csv_rows), "\n".join(average_rows))
 
-result_file_type = BASELINE
+result_file_type = MAHA
 (all, avg) = get_aggr_result_csv_string(result_file_type)
 with open(result_file_type + 'aggregate.csv', 'w') as result_file:
     result_file.write(all)
