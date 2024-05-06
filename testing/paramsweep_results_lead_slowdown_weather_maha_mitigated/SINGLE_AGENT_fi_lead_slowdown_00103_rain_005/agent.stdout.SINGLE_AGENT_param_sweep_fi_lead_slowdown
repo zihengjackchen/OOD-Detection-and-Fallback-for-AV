@@ -1,0 +1,2000 @@
+
+creating control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00103_rain_005/fi_lead_slowdown_logs/routes_fi_route_highway-0504_021418-fi_lead_slowdown_logs-single_ctl.csv
+
+creating ego trajectory dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00103_rain_005/fi_lead_slowdown_logs/routes_fi_route_highway-0504_021418-fi_lead_slowdown_logs-single_traj.csv
+
+creating cvip dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00103_rain_005/fi_lead_slowdown_logs/routes_fi_route_highway-0504_021418-fi_lead_slowdown_logs-single_cvip.csv
+
+creating network points dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00103_rain_005/fi_lead_slowdown_logs/routes_fi_route_highway-0504_021418-fi_lead_slowdown_logs-single_points.csv
+
+creating pid delta dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00103_rain_005/fi_lead_slowdown_logs/routes_fi_route_highway-0504_021418-fi_lead_slowdown_logs-single_piddelta.csv
+
+creating unclipped control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00103_rain_005/fi_lead_slowdown_logs/routes_fi_route_highway-0504_021418-fi_lead_slowdown_logs-single_unclip_ctl.csv
+
+done creating dump files.
+
+[1m========= Preparing RouteScenario_0 (repetition 0) =========
+> Setting up the agent[0m
+<All keys matched successfully>
+Loading the world
+Save to //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00103_rain_005/fi_lead_slowdown_data/route_highway.xml_fi_lead_slowdown.json.pkl
+Exclude list: [17, 23]
+Location(x=192.362411, y=-86.262680, z=0.700000) Rotation(pitch=0.000000, yaw=89.330902, roll=0.000000)
+Base scenario time out after: 36.333333333333336
+Replacing key first_vehicle_location's value from 50 to 20.
+Replacing key first_vehicle_speed's value from 10 to 0.
+Replacing key event_trigger_distance's value from 35 to 31.
+Config for LeadSlowDown scenario is {'first_vehicle_location': 20, 'first_vehicle_speed': 0, 'other_actor_max_brake': 1.0, 'event_trigger_distance': 31}
+Running the route
+Configuring pyTorchFI
+Fault Injection Disabled.
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.105305, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.235995, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.034899, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.284408, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.005244, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.069211, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.193864, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.046507, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.148725, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.049417, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.017728, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.048105, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.053273, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.107128, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.264271, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.249700, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003059, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.014409, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.272379, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.044720, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.117201, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.037312, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.311619, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.131214, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.011651, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.123556, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.362255, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.193529, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.018169, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.253933, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.228734, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.119361, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.026845, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.076904, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.037094, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.185828, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.072042, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.137739, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.070753, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.034013, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.198000, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.211579, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.202813, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.021556, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.140825, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.035612, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.046723, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.043153, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.042002, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.066351, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.281125, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.021006, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.049235, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.138820, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.045752, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.054537, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.102771, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.025836, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.301046, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.066757, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.152938, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.009016, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.113583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.162702, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.171696, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.018272, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.037126, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.217936, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.010399, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.054958, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.053763, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.013319, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.232527, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.001066, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.274616, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.003399, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.134070, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.029365, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.134583, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.162430, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.059771, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.331113, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.026123, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.143625, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.025916, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.240762, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.006352, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.338482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.010523, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.039662, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.249497, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.071445, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.162064, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.163096, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.035758, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.093457, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.034155, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.023258, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.215646, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.015388, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.069400, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.103764, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.028492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.017211, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.045080, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.068136, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.157257, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.024935, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Resetting ego-vehicle!
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.079010, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.229848, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.036633, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.044661, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.053078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.204081, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.016517, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.032148, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.222188, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.009560, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.051646, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.017130, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.168263, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.297373, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.026115, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.034109, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.212824, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.012224, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.208357, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.006669, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.109776, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.118674, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.140528, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.026107, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.089275, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.031134, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.069599, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.014030, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.028497, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.384504, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.048504, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.110874, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.162577, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.000659, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.032841, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.078449, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.003793, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.345044, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.108940, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.001606, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.276220, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.003609, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.147362, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.057624, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.183286, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.000116, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.058243, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.402944, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.010613, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.149788, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.038586, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.136282, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.009367, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.483320, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.062452, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.192986, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.090866, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.330503, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.063794, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.019749, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.079301, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.024078, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.212955, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8778502345085144 to 0.6144951641559601
+agent 0 action: VehicleControl(throttle=0.614495, steer=0.158867, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.007530, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.034453, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.046596, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8083770275115967 to 0.5658639192581176
+agent 0 action: VehicleControl(throttle=0.565864, steer=0.034154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.057269, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.077907, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.031607, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.170194, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.055653, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.013989, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.329403, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.054566, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.141040, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5431419610977173 to 0.3801993727684021
+agent 0 action: VehicleControl(throttle=0.380199, steer=-0.159087, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.48330870270729065 to 0.3383160918951034
+agent 0 action: VehicleControl(throttle=0.338316, steer=0.198721, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.037871, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.068499, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6754787564277649 to 0.4728351294994354
+agent 0 action: VehicleControl(throttle=0.472835, steer=-0.004458, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.031803, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5762063264846802 to 0.4033444285392761
+agent 0 action: VehicleControl(throttle=0.403344, steer=0.000566, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8030699491500854 to 0.5621489644050598
+agent 0 action: VehicleControl(throttle=0.562149, steer=-0.012514, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.47861963510513306 to 0.33503374457359314
+agent 0 action: VehicleControl(throttle=0.335034, steer=0.302692, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.026049, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.012941, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8357911109924316 to 0.5850537776947021
+agent 0 action: VehicleControl(throttle=0.585054, steer=0.014476, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3225821256637573 to 0.2258074879646301
+agent 0 action: VehicleControl(throttle=0.225807, steer=0.194747, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.072778, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.275886, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.078411, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8628402352333069 to 0.6039881646633147
+agent 0 action: VehicleControl(throttle=0.603988, steer=-0.006553, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.2774106562137604 to 0.19418745934963225
+agent 0 action: VehicleControl(throttle=0.194187, steer=-0.043574, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.020330, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3184817135334015 to 0.22293719947338103
+agent 0 action: VehicleControl(throttle=0.222937, steer=-0.020542, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3749410808086395 to 0.26245875656604767
+agent 0 action: VehicleControl(throttle=0.262459, steer=0.061865, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3762688934803009 to 0.2633882254362106
+agent 0 action: VehicleControl(throttle=0.263388, steer=0.232023, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.052159, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.022449, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.28029143810272217 to 0.19620400667190552
+agent 0 action: VehicleControl(throttle=0.196204, steer=0.175574, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.078244, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.38383105397224426 to 0.268681737780571
+agent 0 action: VehicleControl(throttle=0.268682, steer=-0.074187, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.057540, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7810806632041931 to 0.5467564642429351
+agent 0 action: VehicleControl(throttle=0.546756, steer=0.023951, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.59107506275177 to 0.413752543926239
+agent 0 action: VehicleControl(throttle=0.413753, steer=-0.043294, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.35145118832588196 to 0.24601583182811734
+agent 0 action: VehicleControl(throttle=0.246016, steer=0.117407, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6135537624359131 to 0.42948763370513915
+agent 0 action: VehicleControl(throttle=0.429488, steer=-0.040647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3302220404148102 to 0.23115542829036712
+agent 0 action: VehicleControl(throttle=0.231155, steer=0.173228, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.46037226915359497 to 0.3222605884075165
+agent 0 action: VehicleControl(throttle=0.322261, steer=0.054425, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.39471301436424255 to 0.27629911005496977
+agent 0 action: VehicleControl(throttle=0.276299, steer=0.154681, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.14630208909511566 to 0.10241146236658095
+agent 0 action: VehicleControl(throttle=0.102411, steer=0.069277, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.011058, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.072460, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.078811, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.035749, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.017629, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3901289105415344 to 0.27309023737907406
+agent 0 action: VehicleControl(throttle=0.273090, steer=0.023534, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.536331295967102 to 0.3754319071769714
+agent 0 action: VehicleControl(throttle=0.375432, steer=0.262433, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.38800686597824097 to 0.2716048061847687
+agent 0 action: VehicleControl(throttle=0.271605, steer=0.120321, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.025009, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.2878003418445587 to 0.20146023929119108
+agent 0 action: VehicleControl(throttle=0.201460, steer=0.012425, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.39230605959892273 to 0.27461424171924587
+agent 0 action: VehicleControl(throttle=0.274614, steer=-0.052112, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.34322673082351685 to 0.24025871157646178
+agent 0 action: VehicleControl(throttle=0.240259, steer=0.041844, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7174137830734253 to 0.5021896481513977
+agent 0 action: VehicleControl(throttle=0.502190, steer=0.004552, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5366682410240173 to 0.3756677687168121
+agent 0 action: VehicleControl(throttle=0.375668, steer=0.043467, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.013872, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6164976358413696 to 0.43154834508895873
+agent 0 action: VehicleControl(throttle=0.431548, steer=0.097457, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.056712, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5866426825523376 to 0.4106498777866363
+agent 0 action: VehicleControl(throttle=0.410650, steer=0.132949, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.008903, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6966477036476135 to 0.48765339255332946
+agent 0 action: VehicleControl(throttle=0.487653, steer=-0.014219, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7159406542778015 to 0.501158457994461
+agent 0 action: VehicleControl(throttle=0.501158, steer=0.030302, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4368869662284851 to 0.30582087635993954
+agent 0 action: VehicleControl(throttle=0.305821, steer=-0.091270, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.34391799569129944 to 0.2407425969839096
+agent 0 action: VehicleControl(throttle=0.240743, steer=0.078229, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.023825, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.042064, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.028183, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.000567, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4320066571235657 to 0.30240465998649596
+agent 0 action: VehicleControl(throttle=0.302405, steer=-0.031908, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.003727, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.138025, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000288, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.092193, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.017631, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.013351, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7376121878623962 to 0.5163285315036773
+agent 0 action: VehicleControl(throttle=0.516329, steer=-0.015224, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.028734, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7103341817855835 to 0.4972339272499084
+agent 0 action: VehicleControl(throttle=0.497234, steer=0.004095, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.036457, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.020330, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.002581, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.053050, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.012174, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.004760, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.008694, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.084247, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.030427, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.017476, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.082041, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.027233, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6695473194122314 to 0.46868312358856196
+agent 0 action: VehicleControl(throttle=0.468683, steer=-0.150513, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.067246, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.014849, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.000070, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.042195, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.014588, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.003201, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.081417, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.021186, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.019744, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.029828, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.046944, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.015377, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.005849, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8724693059921265 to 0.6107285141944885
+agent 0 action: VehicleControl(throttle=0.610729, steer=-0.044508, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.052667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.003145, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.003618, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.042315, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.027706, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.020701, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.022960, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.020276, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4103188216686249 to 0.2872231751680374
+agent 0 action: VehicleControl(throttle=0.287223, steer=-0.023796, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.012018, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8092153072357178 to 0.5664507150650024
+agent 0 action: VehicleControl(throttle=0.566451, steer=-0.080738, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.029499, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.602925181388855 to 0.42204762697219844
+agent 0 action: VehicleControl(throttle=0.422048, steer=-0.007965, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.017996, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.002806, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.026894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.030587, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.031389, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.027665, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.028240, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.008556, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.100427, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.004760, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.007345, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.003659, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.035187, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.013711, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.48449793457984924 to 0.33914855420589446
+agent 0 action: VehicleControl(throttle=0.339149, steer=-0.042079, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.008830, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.023235, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7091839909553528 to 0.4964287936687469
+agent 0 action: VehicleControl(throttle=0.496429, steer=-0.045104, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.029009, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.026905, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.012685, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.39137595891952515 to 0.2739631712436676
+agent 0 action: VehicleControl(throttle=0.273963, steer=-0.065568, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.007951, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.028216, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.018760, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.40453410148620605 to 0.2831738710403442
+agent 0 action: VehicleControl(throttle=0.283174, steer=0.056810, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6365694403648376 to 0.44559860825538633
+agent 0 action: VehicleControl(throttle=0.445599, steer=-0.041675, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000681, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.025045, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6168580055236816 to 0.43180060386657715
+agent 0 action: VehicleControl(throttle=0.431801, steer=-0.005896, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.005910, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.058756, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.052350, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.022389, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.032492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.004873, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.038879, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.018596, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4056428372859955 to 0.28394998610019684
+agent 0 action: VehicleControl(throttle=0.283950, steer=-0.083518, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.165595, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.049401, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.40304285287857056 to 0.28212999701499936
+agent 0 action: VehicleControl(throttle=0.282130, steer=-0.041353, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.074723, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5525289177894592 to 0.3867702424526214
+agent 0 action: VehicleControl(throttle=0.386770, steer=-0.060173, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6164013147354126 to 0.4314809203147888
+agent 0 action: VehicleControl(throttle=0.431481, steer=-0.032259, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.021221, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.098541, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.008135, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6765768527984619 to 0.4736037969589233
+agent 0 action: VehicleControl(throttle=0.473604, steer=-0.054247, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4600643515586853 to 0.3220450460910797
+agent 0 action: VehicleControl(throttle=0.322045, steer=-0.152812, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.096220, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.120971, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.025391, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.77833092212677 to 0.544831645488739
+agent 0 action: VehicleControl(throttle=0.544832, steer=-0.033681, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.497468501329422 to 0.3482279509305954
+agent 0 action: VehicleControl(throttle=0.348228, steer=-0.074892, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7170014381408691 to 0.5019010066986084
+agent 0 action: VehicleControl(throttle=0.501901, steer=-0.146594, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8806596994400024 to 0.6164617896080017
+agent 0 action: VehicleControl(throttle=0.616462, steer=-0.072174, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.29991665482521057 to 0.2099416583776474
+agent 0 action: VehicleControl(throttle=0.209942, steer=-0.121683, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.108942, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6322728395462036 to 0.4425909876823425
+agent 0 action: VehicleControl(throttle=0.442591, steer=-0.042138, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.39387792348861694 to 0.27571454644203186
+agent 0 action: VehicleControl(throttle=0.275715, steer=-0.154566, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8755127787590027 to 0.6128589451313018
+agent 0 action: VehicleControl(throttle=0.612859, steer=-0.115627, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.200482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.49605461955070496 to 0.34723823368549345
+agent 0 action: VehicleControl(throttle=0.347238, steer=-0.187651, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.27501556277275085 to 0.19251089394092558
+agent 0 action: VehicleControl(throttle=0.192511, steer=-0.124849, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.2769404649734497 to 0.1938583254814148
+agent 0 action: VehicleControl(throttle=0.193858, steer=-0.215400, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.147268, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.277741014957428 to 0.19441871047019957
+agent 0 action: VehicleControl(throttle=0.194419, steer=-0.295323, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5278024673461914 to 0.36946172714233394
+agent 0 action: VehicleControl(throttle=0.369462, steer=-0.220803, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5945768356323242 to 0.41620378494262694
+agent 0 action: VehicleControl(throttle=0.416204, steer=-0.181494, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.100468, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4322604835033417 to 0.3025823384523392
+agent 0 action: VehicleControl(throttle=0.302582, steer=-0.243271, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.2811337411403656 to 0.1967936187982559
+agent 0 action: VehicleControl(throttle=0.196794, steer=-0.227797, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5196925401687622 to 0.36378477811813353
+agent 0 action: VehicleControl(throttle=0.363785, steer=-0.110163, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.17792299389839172 to 0.12454609572887419
+agent 0 action: VehicleControl(throttle=0.124546, steer=-0.215041, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.134691, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3704532980918884 to 0.2593173086643219
+agent 0 action: VehicleControl(throttle=0.259317, steer=-0.210976, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5343297123908997 to 0.37403079867362976
+agent 0 action: VehicleControl(throttle=0.374031, steer=-0.186943, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.48953720927238464 to 0.34267604649066924
+agent 0 action: VehicleControl(throttle=0.342676, steer=-0.134786, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7893019318580627 to 0.5525113523006439
+agent 0 action: VehicleControl(throttle=0.552511, steer=-0.142595, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7697815895080566 to 0.5388471126556396
+agent 0 action: VehicleControl(throttle=0.538847, steer=-0.147994, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.120087, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.177105, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6214345693588257 to 0.43500419855117795
+agent 0 action: VehicleControl(throttle=0.435004, steer=-0.178988, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8045988082885742 to 0.5632191658020019
+agent 0 action: VehicleControl(throttle=0.563219, steer=-0.116510, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.099023, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7004696726799011 to 0.49032877087593074
+agent 0 action: VehicleControl(throttle=0.490329, steer=-0.121679, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.096008, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4053536355495453 to 0.2837475448846817
+agent 0 action: VehicleControl(throttle=0.283748, steer=-0.154606, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7696700692176819 to 0.5387690484523773
+agent 0 action: VehicleControl(throttle=0.538769, steer=-0.152689, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.815264880657196 to 0.5706854164600372
+agent 0 action: VehicleControl(throttle=0.570685, steer=-0.103964, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.060134, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6175472140312195 to 0.4322830498218536
+agent 0 action: VehicleControl(throttle=0.432283, steer=-0.073539, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.120769, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7410699129104614 to 0.518748939037323
+agent 0 action: VehicleControl(throttle=0.518749, steer=-0.089168, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.134040, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6584338545799255 to 0.46090369820594784
+agent 0 action: VehicleControl(throttle=0.460904, steer=-0.123205, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8893675804138184 to 0.6225573062896728
+agent 0 action: VehicleControl(throttle=0.622557, steer=-0.064351, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7121130228042603 to 0.49847911596298217
+agent 0 action: VehicleControl(throttle=0.498479, steer=-0.125537, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.077919, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.050566, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.062574, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.3051307797431946 to 0.2135915458202362
+agent 0 action: VehicleControl(throttle=0.213592, steer=-0.074589, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.041820, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.104814, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.100908, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.006188, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.053134, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.704826831817627 to 0.49337878227233883
+agent 0 action: VehicleControl(throttle=0.493379, steer=-0.086841, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.30317404866218567 to 0.21222183406352996
+agent 0 action: VehicleControl(throttle=0.212222, steer=-0.084366, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.077567, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.027794, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.037525, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.006707, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5511221885681152 to 0.3857855319976806
+agent 0 action: VehicleControl(throttle=0.385786, steer=-0.039214, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.029894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.025032, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.009435, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.2466520518064499 to 0.1726564362645149
+agent 0 action: VehicleControl(throttle=0.172656, steer=-0.072727, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8706303834915161 to 0.6094412684440612
+agent 0 action: VehicleControl(throttle=0.609441, steer=-0.036005, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.101322, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.003201, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.24800913035869598 to 0.17360639125108718
+agent 0 action: VehicleControl(throttle=0.173606, steer=-0.088452, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.29994913935661316 to 0.2099643975496292
+agent 0 action: VehicleControl(throttle=0.209964, steer=-0.018643, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.689495861530304 to 0.4826471030712127
+agent 0 action: VehicleControl(throttle=0.482647, steer=-0.024420, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6127922534942627 to 0.42895457744598386
+agent 0 action: VehicleControl(throttle=0.428955, steer=-0.075990, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6426332592964172 to 0.44984328150749203
+agent 0 action: VehicleControl(throttle=0.449843, steer=0.009937, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.018900, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7359791994094849 to 0.5151854395866394
+agent 0 action: VehicleControl(throttle=0.515185, steer=-0.033480, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.007325, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7645324468612671 to 0.5351727128028869
+agent 0 action: VehicleControl(throttle=0.535173, steer=-0.023422, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4392247200012207 to 0.30745730400085447
+agent 0 action: VehicleControl(throttle=0.307457, steer=0.023002, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8551461100578308 to 0.5986022770404815
+agent 0 action: VehicleControl(throttle=0.598602, steer=0.091300, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.021495, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8752812743186951 to 0.6126968920230865
+agent 0 action: VehicleControl(throttle=0.612697, steer=-0.011054, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.001314, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5291779637336731 to 0.37042457461357114
+agent 0 action: VehicleControl(throttle=0.370425, steer=-0.002216, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5296235084533691 to 0.3707364559173584
+agent 0 action: VehicleControl(throttle=0.370736, steer=0.033352, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.5550557374954224 to 0.38853901624679565
+agent 0 action: VehicleControl(throttle=0.388539, steer=-0.022590, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7939160466194153 to 0.5557412326335907
+agent 0 action: VehicleControl(throttle=0.555741, steer=0.007574, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.018462, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.33348047733306885 to 0.23343633413314818
+agent 0 action: VehicleControl(throttle=0.233436, steer=-0.011654, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.025044, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.014549, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.014156, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.007475, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.037500, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.600776731967926 to 0.4205437123775482
+agent 0 action: VehicleControl(throttle=0.420544, steer=0.017005, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.016628, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.035935, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.049568, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.049003, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.027752, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.29928380250930786 to 0.2094986617565155
+agent 0 action: VehicleControl(throttle=0.209499, steer=0.028527, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.006836, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.034947, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.000216, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.48767104744911194 to 0.34136973321437836
+agent 0 action: VehicleControl(throttle=0.341370, steer=0.002229, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.003898, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.015722, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.36506879329681396 to 0.25554815530776975
+agent 0 action: VehicleControl(throttle=0.255548, steer=0.016052, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.001586, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.002222, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.002643, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.001119, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.009366, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.054634, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.4199114739894867 to 0.29393803179264066
+agent 0 action: VehicleControl(throttle=0.293938, steer=-0.013904, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.16600050032138824 to 0.11620035022497176
+agent 0 action: VehicleControl(throttle=0.116200, steer=0.079403, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.001002, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.005409, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.20908969640731812 to 0.14636278748512266
+agent 0 action: VehicleControl(throttle=0.146363, steer=0.144152, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.011490, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.005979, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.028546, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.101795, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.007467, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8823772072792053 to 0.6176640450954437
+agent 0 action: VehicleControl(throttle=0.617664, steer=0.047155, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000100, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.6637700200080872 to 0.464639014005661
+agent 0 action: VehicleControl(throttle=0.464639, steer=-0.010511, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.028894, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.014702, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.033032, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.034733, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.7934169173240662 to 0.5553918421268462
+agent 0 action: VehicleControl(throttle=0.555392, steer=0.035059, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected rain with param 750
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.008462, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Stopping the route
+
+========= Results of RouteScenario_0 (repetition 0) ------ [91mFAILURE[0m =========
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2024-05-04 02:14:25 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2024-05-04 02:17:06 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 161.1s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 12.1s               │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.075               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ FAILURE │ 35.19 % │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ SUCCESS │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ FAILURE │ 1 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ SUCCESS │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+Simulation saved.

@@ -1,0 +1,730 @@
+
+creating control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00106_haze_000/fi_lead_slowdown_logs/routes_fi_route_highway-0503_201244-fi_lead_slowdown_logs-single_ctl.csv
+
+creating ego trajectory dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00106_haze_000/fi_lead_slowdown_logs/routes_fi_route_highway-0503_201244-fi_lead_slowdown_logs-single_traj.csv
+
+creating cvip dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00106_haze_000/fi_lead_slowdown_logs/routes_fi_route_highway-0503_201244-fi_lead_slowdown_logs-single_cvip.csv
+
+creating network points dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00106_haze_000/fi_lead_slowdown_logs/routes_fi_route_highway-0503_201244-fi_lead_slowdown_logs-single_points.csv
+
+creating pid delta dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00106_haze_000/fi_lead_slowdown_logs/routes_fi_route_highway-0503_201244-fi_lead_slowdown_logs-single_piddelta.csv
+
+creating unclipped control dump file at: //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00106_haze_000/fi_lead_slowdown_logs/routes_fi_route_highway-0503_201244-fi_lead_slowdown_logs-single_unclip_ctl.csv
+
+done creating dump files.
+
+[1m========= Preparing RouteScenario_0 (repetition 0) =========
+> Setting up the agent[0m
+<All keys matched successfully>
+Loading the world
+Save to //media/sheng/data4/projects/DiverseEnv/auto/paramsweep_results_lead_slowdown_weather_maha_mitigated/SINGLE_AGENT_fi_lead_slowdown_00106_haze_000/fi_lead_slowdown_data/route_highway.xml_fi_lead_slowdown.json.pkl
+Exclude list: [17, 23]
+Location(x=192.362411, y=-86.262680, z=0.700000) Rotation(pitch=0.000000, yaw=89.330902, roll=0.000000)
+Base scenario time out after: 36.333333333333336
+Replacing key first_vehicle_location's value from 50 to 20.
+Replacing key first_vehicle_speed's value from 10 to 0.
+Replacing key event_trigger_distance's value from 35 to 37.
+Config for LeadSlowDown scenario is {'first_vehicle_location': 20, 'first_vehicle_speed': 0, 'other_actor_max_brake': 1.0, 'event_trigger_distance': 37}
+Running the route
+Configuring pyTorchFI
+Fault Injection Disabled.
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=0.009147, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005893, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001698, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001338, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002931, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003854, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002779, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003754, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003823, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003916, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003588, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003533, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003720, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003636, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003711, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004090, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004181, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004278, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004154, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004394, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004432, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004573, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004457, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004608, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004670, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004681, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004573, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004813, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004777, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004849, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004866, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004812, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004768, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004868, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004802, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004881, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005053, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004824, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004869, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004647, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004655, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004875, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004601, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004720, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004774, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004700, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004770, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004680, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004696, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004867, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004674, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004755, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005017, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004803, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.005020, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004897, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004721, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004938, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004692, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004866, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004926, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004718, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004833, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004740, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004646, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004617, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004632, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004613, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004621, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004731, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004675, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004589, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004436, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004664, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004441, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004480, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004829, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004558, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004705, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004535, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004531, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004525, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004323, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004526, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004675, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004584, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004667, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004580, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004476, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004673, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004458, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004641, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004632, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004663, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004591, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004434, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004532, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004482, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004296, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003883, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003802, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004202, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003849, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003846, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003927, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003916, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Resetting ego-vehicle!
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003903, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004057, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003808, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004164, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003541, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.004214, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.003131, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002578, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002317, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001742, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001950, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001552, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000384, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000012, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000199, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000759, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001170, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000995, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001580, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002527, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001989, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002305, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002922, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.002568, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001248, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001499, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000641, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000458, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000506, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000969, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000658, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.001125, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000085, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000495, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001198, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002492, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001451, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002280, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001161, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000924, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001346, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002276, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002277, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002604, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002600, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002565, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002265, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.002253, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.001009, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=0.000091, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.900000, steer=-0.000334, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.8999999761581421 to 0.6299999833106994
+agent 0 action: VehicleControl(throttle=0.630000, steer=-0.000721, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.822996, steer=-0.000768, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.753104, steer=-0.000724, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.693567, steer=-0.002923, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.615721, steer=-0.005229, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.573933, steer=-0.004371, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.469838, steer=-0.002119, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.445900, steer=-0.001225, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.423511, steer=-0.001629, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.400627, steer=-0.000913, brake=0.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000130, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=-0.000016, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000008, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000544, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.001947, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.003761, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.000495, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.002187, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.003515, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.007675, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.011990, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.013691, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.015178, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.015095, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.018676, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.016696, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.010388, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004838, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.002438, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.011846, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.019282, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.022419, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.023294, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.021711, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.021834, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.020194, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.014174, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.007673, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.009349, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: False
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004787, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004266, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004523, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004375, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004613, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004611, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004571, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004564, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004565, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004680, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004779, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004216, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004350, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004888, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Injected haze with param 0
+Detected OOD: True
+Detected OOD, fall back by reducing throttle from 0.0 to 0.0
+agent 0 action: VehicleControl(throttle=0.000000, steer=0.004725, brake=1.000000, hand_brake=False, reverse=False, manual_gear_shift=False, gear=0)
+Stopping the route
+
+========= Results of RouteScenario_0 (repetition 0) ------ [91mFAILURE[0m =========
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2024-05-03 20:12:50 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2024-05-03 20:13:57 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 67.05s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 5.33s               │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.079               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ FAILURE │ 13.06 % │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ SUCCESS │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ FAILURE │ 1 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ SUCCESS │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ SUCCESS │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ SUCCESS │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+Simulation saved.
