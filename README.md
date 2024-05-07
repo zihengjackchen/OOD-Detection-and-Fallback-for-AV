@@ -6,7 +6,7 @@ Handling out-of-distribution (OOD) scenarios remains a challenge in autonomous v
 ![orig](demo_images/orig.png)
 ![orig](demo_images/rainy_250.png)
 ![orig](demo_images/hazy_150.png)
-![orig](demo_images/shady_0.5.png)
+![orig](demo_images/shady_0.5.png)  
 Some example images that provide a clear comparison of the modifications, showing visual impact to various degrees. *Top to bottom: original, rain, haze, shade.*
 
 ### File Descriptions
