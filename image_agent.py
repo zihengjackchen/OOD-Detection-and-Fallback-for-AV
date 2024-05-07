@@ -29,7 +29,7 @@ import csv
 import os
 
 # DEBUG = int(os.environ.get('HAS_DISPLAY', 0))
-DEBUG = True
+DEBUG = False
 
 def get_entry_point():
     return 'ImageAgent'
